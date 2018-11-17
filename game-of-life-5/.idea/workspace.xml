@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2822239-5c66-45a8-b31d-666309d2a5db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cell.go" beforeDir="false" afterPath="$PROJECT_DIR$/cell.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cell_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cell_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universe.go" beforeDir="false" afterPath="$PROJECT_DIR$/universe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universe_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/universe_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,19 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="411" />
+          <entry key="go" value="1199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="411" />
+          <entry key="Go" value="1199" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".append" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cell.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
@@ -56,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/cell_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -64,17 +69,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/universe.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="561">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/universe_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding>
+                <element signature="e#24#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,10 +103,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/universe_test.go" />
-        <option value="$PROJECT_DIR$/universe.go" />
         <option value="$PROJECT_DIR$/cell_test.go" />
         <option value="$PROJECT_DIR$/cell.go" />
+        <option value="$PROJECT_DIR$/universe.go" />
+        <option value="$PROJECT_DIR$/universe_test.go" />
       </list>
     </option>
   </component>
@@ -167,16 +175,34 @@
     </configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.11.17 at 15h 16m 11s.xml">
+    <history-entry file="Unnamed - 2018.11.17 at 15h 34m 12s.xml">
       <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.11.17 at 15h 18m 29s.xml">
+    <history-entry file="Unnamed - 2018.11.17 at 15h 34m 42s.xml">
       <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.11.17 at 15h 18m 45s.xml">
+    <history-entry file="Unnamed - 2018.11.17 at 15h 35m 48s.xml">
       <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.11.17 at 15h 19m 46s.xml">
+    <history-entry file="Unnamed - 2018.11.17 at 15h 36m 26s.xml">
+      <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.11.17 at 15h 38m 28s.xml">
+      <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.11.17 at 15h 38m 59s.xml">
+      <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.11.17 at 15h 39m 58s.xml">
+      <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.11.17 at 15h 40m 22s.xml">
+      <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.11.17 at 15h 41m 21s.xml">
+      <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.11.17 at 15h 42m 05s.xml">
       <configuration name="Unnamed" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -211,31 +237,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/universe.go">
+    <entry file="file://$PROJECT_DIR$/cell.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universe_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="389">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cell_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cell.go">
+    <entry file="file://$PROJECT_DIR$/universe.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="561">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universe_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
