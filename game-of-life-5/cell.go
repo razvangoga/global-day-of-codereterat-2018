@@ -8,9 +8,20 @@ func IsAlive(cell int, neighbours []int)int {
 		sum+= neighbours[i]
 	}
 
-	if(sum < 2 && cell == 1){
+	if cell == 0 {
+		if sum == 3 {
+			return 1
+		}
+
+		return 0
+	}
+	if sum < 2 {
 		return 0
 	}
 
-	return -1
+	if sum <= 3 {
+		return 1
+	}
+
+	return 0
 }
