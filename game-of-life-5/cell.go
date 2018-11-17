@@ -1,11 +1,11 @@
 package game_of_life_5
 
-func IsAlive(cell int, neighbours []int)int {
+import "errors"
 
-	sum:=0
+func IsAlive(cell int, sum int)int {
 
-	for i:=0;i<len(neighbours); i++  {
-		sum+= neighbours[i]
+	if sum < 0 {
+		panic(errors.New("Invalid neighbours array"))
 	}
 
 	if cell == 0 {

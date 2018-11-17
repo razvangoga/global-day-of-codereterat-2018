@@ -3,7 +3,7 @@ package game_of_life_5
 import "testing"
 
 func TestIsAlive(t *testing.T) {
-	actual:= IsAlive(1, []int {1,0,0,0,0,0,0,0})
+	actual:= IsAlive(1, 1)
 	expected:= 0
 
 	if actual != expected {
@@ -13,7 +13,7 @@ func TestIsAlive(t *testing.T) {
 
 
 func TestIsAlive_live_2(t *testing.T) {
-	actual:= IsAlive(1, []int {1,1,0,0,0,0,0,0})
+	actual:= IsAlive(1, 2)
 	expected:= 1
 
 	if actual != expected {
@@ -23,7 +23,7 @@ func TestIsAlive_live_2(t *testing.T) {
 
 
 func TestIsAlive_3(t *testing.T) {
-	actual:= IsAlive(1, []int {1,1,1,0,0,0,0,0})
+	actual:= IsAlive(1, 3)
 	expected:= 1
 
 	if actual != expected {
@@ -33,7 +33,7 @@ func TestIsAlive_3(t *testing.T) {
 
 
 func TestIsAlive_more(t *testing.T) {
-	actual:= IsAlive(1, []int {1,1,1,1,0,0,0,0})
+	actual:= IsAlive(1, 4)
 	expected:= 0
 
 	if actual != expected {
@@ -43,7 +43,7 @@ func TestIsAlive_more(t *testing.T) {
 
 
 func TestIsAlive_revive(t *testing.T) {
-	actual:= IsAlive(0, []int {1,1,1,0,0,0,0,0})
+	actual:= IsAlive(0, 3)
 	expected:= 1
 
 	if actual != expected {

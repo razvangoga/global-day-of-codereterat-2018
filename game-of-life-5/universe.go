@@ -1,6 +1,11 @@
 package game_of_life_5
 
 func Evolve(current [][]int) [][]int {
+	
+	if current == nil  || len(current) == 0{
+		return nil
+	}
+	
 	result := make([][]int, len(current))
 
 	for i := 0; i < len(current); i++ {
@@ -13,11 +18,9 @@ func Evolve(current [][]int) [][]int {
 	return result
 }
 
-func getNeighbours(universe [][]int, x int, y int) []int {
+func getNeighbours(universe [][]int, x int, y int) int {
 
-	result := make([]int, 8)
-	idx := 0
-
+	result := 0
 	for i := -1; i <= 1; i++ {
 		for j := -1; j <= 1; j++ {
 			if i == 0 && j == 0 {
@@ -31,8 +34,8 @@ func getNeighbours(universe [][]int, x int, y int) []int {
 				continue
 			}
 
-			result[idx] = universe[xx][yy]
-			idx++
+			result += universe[xx][yy]
+
 		}
 	}
 
